@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'package:audioplayers/audioplayers.dart';
+import 'package:ionicons/ionicons.dart';
 import 'package:myapp/component/AnsAlertDialog.dart';
-
 
 class SoundQa extends StatefulWidget {
   SoundQa(
@@ -46,7 +46,7 @@ class _SoundQaState extends State<SoundQa> {
 
                   await player.play(AssetSource('${widget.soundPath}'));
                 },
-                child: Icon(Icons.play_arrow),
+                child: Icon(Ionicons.play),
                 style: ElevatedButton.styleFrom(
                     backgroundColor: Color(0xff3D8361)),
               ),

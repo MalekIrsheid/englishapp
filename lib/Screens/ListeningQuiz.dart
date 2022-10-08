@@ -65,7 +65,7 @@ class _ListeningQuizState extends State<ListeningQuiz> {
     return Scaffold(
       backgroundColor: Color(0xffEEF2E6),
       appBar: AppBar(
-        title: Center(child: Text("LeasingQuiz")),
+        title: Center(child: Text("Listening Quiz")),
         backgroundColor: Color(0xff1C6758),
         leading: IconButton(
             onPressed: () {
