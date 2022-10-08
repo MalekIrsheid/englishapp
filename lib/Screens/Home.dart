@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ionicons/ionicons.dart';
 import 'package:myapp/Screens/ImageQuiz.dart';
 import 'package:myapp/Screens/ListeningQuiz.dart';
 import 'package:myapp/component/url.dart';
@@ -66,11 +67,11 @@ class _homeState extends State<home> {
                     ));
                   },
                   icon: Icon(
-                    Icons.image,
+                    Ionicons.image,
                     color: Colors.black,
                   ),
                   label: Text(
-                    "Image Test",
+                    "Image Practice",
                     style:
                         TextStyle(color: Colors.black, fontFamily: "Peralta"),
                   )),
@@ -85,7 +86,7 @@ class _homeState extends State<home> {
                     ));
                   },
                   icon: Icon(
-                    Icons.audio_file,
+                    Ionicons.musical_note,
                     color: Colors.black,
                   ),
                   label: Text(
@@ -104,7 +105,7 @@ class _homeState extends State<home> {
                     ));
                   },
                   icon: Icon(
-                    Icons.abc,
+                    Ionicons.language,
                     color: Colors.black,
                   ),
                   label: Text(

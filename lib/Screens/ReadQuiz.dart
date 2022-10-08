@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ionicons/ionicons.dart';
 import 'package:myapp/Screens/Home.dart';
 
 import 'package:myapp/component/Readcomp.dart';
@@ -90,7 +91,7 @@ class _ReadingState extends State<Reading> {
                 ));
               },
               icon: const Icon(
-                Icons.home,
+                Ionicons.home,
                 color: Color.fromARGB(255, 13, 81, 136),
               )),
         ),

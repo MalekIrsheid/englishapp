@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:ionicons/ionicons.dart';
 import 'package:myapp/Screens/Home.dart';
 import 'package:myapp/component/Page_builder.dart';
 import 'package:myapp/component/SoundQa.dart';
@@ -96,7 +97,7 @@ class _ImageQuziState extends State<ImageQuzi> {
               ));
             },
             icon: Icon(
-              Icons.home,
+              Ionicons.home,
               color: Color.fromARGB(255, 13, 81, 136),
             )),
       ),
